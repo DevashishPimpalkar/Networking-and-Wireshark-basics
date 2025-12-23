@@ -1,27 +1,32 @@
-# Networking & Wireshark Basics
+# 🛡️ Network Traffic Analysis using Wireshark
 
-This repository documents my hands-on learning of networking
-fundamentals and packet analysis using Wireshark on Kali Linux.
+Hands-on practice with packet analysis on Kali Linux to understand real network communication and security behavior.
 
-## Topics Covered
-- TCP vs UDP
-- TCP 3-Way Handshake
-- DNS Resolution
-- HTTP vs HTTPS
-- ARP Protocol
-- ARP Poisoning (MITM concept)
+---
 
-## What I Observed
-- DNS queries reveal destination domains even when HTTPS is used
-- TCP handshake clearly shows connection setup
-- HTTP traffic is readable, HTTPS is encrypted
-- ARP poisoning exploits trust at Layer 2
+## 🔍 What This Project Covers
+- TCP vs UDP traffic behavior
+- TCP 3-Way Handshake analysis
+- DNS query & response inspection
+- HTTP vs HTTPS packet comparison
+- ARP requests and ARP poisoning (lab environment)
 
-## Tools Used
+---
+
+## 🧪 Tools & Environment
 - Kali Linux
 - Wireshark
+- Linux terminal utilities (ping, nslookup, curl)
 
-## Status
-Learning in progress 🚀
-# Networking-and-Wireshark-basics
-Learning networking fundamentals and packet analysis using Wireshark on Kali Linux
+---
+
+## 📊 Key Learnings
+- DNS traffic reveals domain-level intent before encryption
+- TCP handshake confirms reliable connections
+- HTTPS encrypts payload but metadata is still visible
+- ARP works on trust, which can be exploited in LAN attacks
+
+---
+
+## 🚧 Status
+Learning in progress. More packet analysis scenarios will be added.
