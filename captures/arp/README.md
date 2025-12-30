@@ -1,12 +1,11 @@
-# DNS Packet Captures
+# ARP Packet Captures
 
-This folder contains DNS traffic captures.
+ARP traffic captured to understand local network communication.
 
 ## Observations
-- DNS works over UDP (mostly)
-- Queries and responses are visible in plaintext
-- A vs AAAA record differences observed
-- Source = client, Destination = DNS server
+- ARP has no authentication
+- Works only inside LAN
+- Easily abused in MITM attacks
 
 ## Learning Outcome
-Understanding how name resolution works and what metadata attackers can still see even with HTTPS.
+Understood why ARP poisoning is possible and why trust inside LAN is dangerous.
